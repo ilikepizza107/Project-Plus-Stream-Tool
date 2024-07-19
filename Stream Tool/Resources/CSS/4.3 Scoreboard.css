@@ -48,6 +48,11 @@ body {
     -webkit-mask-image: url("../Overlay/Scoreboard/4.3/Mask.png");
 }
 
+#borders {
+    width: 1920px;
+    height: 1080px;
+}
+
 .scoreboard {
     top: var(--scoreboardY);
 }
