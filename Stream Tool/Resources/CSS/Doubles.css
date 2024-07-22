@@ -298,6 +298,24 @@ body {
     background-color: white;
 }
 
+.sponsors {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: absolute;
+    bottom: 3%;
+    right: 74.5%;
+}
+
+#sponsor-logo {
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+}
+
 .socialBox {
     display: flex;
     text-shadow: 2px 2px 5px black;

@@ -4,11 +4,13 @@ import { scoreboardIntro } from "./Scoreboard/Intro.mjs";
 import { players } from "./Scoreboard/Player/Players.mjs";
 import { round } from "./Scoreboard/Round.mjs";
 import { casters } from "./Scoreboard/Caster/Casters.mjs";
-import { introDelaySc } from "./Scoreboard/ScGlobals.mjs";
+import { introDelaySc, fadeInTimeSc, fadeOutTimeSc } from "./Scoreboard/ScGlobals.mjs";
 import { teams } from "./Scoreboard/Team/Teams.mjs";
 import { current} from "./Utils/Globals.mjs";
 import { initOnBrowserActive, isBrowserActive } from "./Utils/On Transition Event.mjs";
 import { initWebsocket } from "./Utils/WebSocket.mjs";
+import { fadeIn } from "./Utils/Fade In.mjs";
+import { fadeOut } from "./Utils/Fade Out.mjs";
 
 // this is a weird way to have file svg's that can be recolored by css
 customElements.define("load-svg", class extends HTMLElement {
@@ -86,6 +88,40 @@ async function updateData(data) {
 
 // listen to obs transition / tab active states
 initOnBrowserActive(() => hideElements(), () => showElements());
+
+document.addEventListener('DOMContentLoaded', () => {
+	const logos = [
+		'./Resources/Overlay/Scoreboard/Sponsors/ALStateGames.png',
+		'./Resources/Overlay/Scoreboard/Sponsors/IMG_1052.png',
+		'./Resources/Overlay/Scoreboard/Sponsors/JuveeLogo.png',
+		'./Resources/Overlay/Scoreboard/Sponsors/Nouns_Esports_allmode.png',
+		'./Resources/Overlay/Scoreboard/Sponsors/rocketown-logo-main.png',
+		'./Resources/Overlay/Scoreboard/Sponsors/Titans Tourneys.png',
+		'./Resources/Overlay/Scoreboard/Sponsors/TNSLOGO_UPSparody.png'
+	];
+
+	let currentIndex = 0;
+	const logoElement = document.getElementById('sponsor-logo');
+
+    async function showNextLogo() {
+        // Fade out the current logo
+        await fadeOut(logoElement, fadeOutTimeSc);
+
+        // Update the logo source
+        logoElement.src = logos[currentIndex];
+        currentIndex = (currentIndex + 1) % logos.length;
+
+        // Fade in the new logo
+        fadeIn(logoElement, fadeInTimeSc);
+    }
+
+    // Initial setup
+    logoElement.src = logos[currentIndex];
+    fadeIn(logoElement, fadeInTimeSc);
+
+    // Set interval to change logos
+    setInterval(showNextLogo, 7000);
+});
 
 // now, this is a workaround to force CSS reflow, and we need any existing element
 const randomEl = document.getElementById("roundDiv"); // can be anything
