@@ -108,16 +108,16 @@ document.addEventListener('DOMContentLoaded', () => {
         await fadeOut(logoElement, fadeOutTimeSc);
 
         // Update the logo source
+		currentIndex = (currentIndex + 1) % logos.length;
         logoElement.src = logos[currentIndex];
-        currentIndex = (currentIndex + 1) % logos.length;
 
         // Fade in the new logo
-        fadeIn(logoElement, fadeInTimeSc);
+        fadeIn(logoElement, fadeInTimeSc, .2);
     }
 
     // Initial setup
     logoElement.src = logos[currentIndex];
-    fadeIn(logoElement, fadeInTimeSc);
+    fadeIn(logoElement, fadeInTimeSc, .2);
 
     // Set interval to change logos
     setInterval(showNextLogo, 7000);
