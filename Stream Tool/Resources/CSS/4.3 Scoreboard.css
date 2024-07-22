@@ -253,7 +253,7 @@ body {
 }
 
 #casters {
-    bottom: 5%;
+    top: 5%;
     left: 89%;
     position: absolute;
     text-align: center;
