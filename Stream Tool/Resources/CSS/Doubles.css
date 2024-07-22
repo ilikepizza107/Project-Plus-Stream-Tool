@@ -39,16 +39,30 @@ body {
     position: absolute;
 }
 
+#theBackground {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    top: 0px;
+    left: 0px;
+    -webkit-mask-image: url("../Overlay/Scoreboard/4.3/MaskD.png");
+}
+
+#borders {
+    width: 1920px;
+    height: 1080px;
+}
 
 .scoreboard {
     top: var(--scoreboardY);
 }
 #scoreboardL {
     left: var(--scoreboardX);
+    transform: translateX(275px);
 }
 #scoreboardR {
     right: var(--scoreboardX);
-    transform: scaleX(-1);
+    transform: scaleX(-1) translateX(-275px);
 }
 
 
@@ -210,7 +224,8 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
-    transform: translateY(10px);
+    transform: translateY(2px);
+    transform: translateX(275px);
 }
 #roundBorder {
     display: flex;
@@ -241,7 +256,7 @@ body {
 
 #casters {
     bottom: 5%;
-    left: 89%;
+    right: 89%;
     position: absolute;
     text-align: center;
     text-shadow: 2px 2px 5px black;

@@ -1,0 +1,29 @@
+{
+  "name": "SipMastah",
+  "tag": "",
+  "pronouns": "he/him",
+  "state": "California",
+  "socials": {
+    "twitter": "SipMastah",
+    "twitch": "SipMastah",
+    "yt": ""
+  },
+  "characters": [
+    {
+      "character": "Meta Knight",
+      "skin": "Meta Knight (7)"
+    },
+    {
+      "character": "Diddy Kong",
+      "skin": "Diddy Kong (17)"
+    },
+    {
+      "character": "Lucario",
+      "skin": "Lucario (6)"
+    },
+    {
+      "character": "Sonic",
+      "skin": "Sonic (14)"
+    }
+  ]
+}

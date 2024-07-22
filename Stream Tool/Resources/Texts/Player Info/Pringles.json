@@ -1,0 +1,17 @@
+{
+  "name": "Pringles",
+  "tag": "",
+  "pronouns": "he/him",
+  "state": "Indiana",
+  "socials": {
+    "twitter": "JuulsPringles",
+    "twitch": "onepringlechip",
+    "yt": ""
+  },
+  "characters": [
+    {
+      "character": "Fox",
+      "skin": "Fox (21)"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Star",
+  "tag": "",
+  "pronouns": "she/her",
+  "state": "Illinois",
+  "socials": {
+    "twitter": "pkzStar",
+    "twitch": "",
+    "yt": ""
+  },
+  "characters": [
+    {
+      "character": "Pit",
+      "skin": "Pit (17)"
+    },
+    {
+      "character": "Lucas",
+      "skin": "Lucas (20)"
+    }
+  ]
+}

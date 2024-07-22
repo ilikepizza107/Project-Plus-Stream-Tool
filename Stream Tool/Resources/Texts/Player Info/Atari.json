@@ -1,0 +1,17 @@
+{
+  "name": "Atari",
+  "tag": "",
+  "pronouns": "it/its",
+  "state": "Texas",
+  "socials": {
+    "twitter": "AtariSSB",
+    "twitch": "Atari422",
+    "yt": ""
+  },
+  "characters": [
+    {
+      "character": "Roy",
+      "skin": "Roy (10)"
+    }
+  ]
+}

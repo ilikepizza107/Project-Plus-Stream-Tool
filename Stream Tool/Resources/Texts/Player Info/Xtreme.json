@@ -1,0 +1,21 @@
+{
+  "name": "Xtreme",
+  "tag": "",
+  "pronouns": "he/him",
+  "state": "Tennessee",
+  "socials": {
+    "twitter": "Xtreminem",
+    "twitch": "",
+    "yt": ""
+  },
+  "characters": [
+    {
+      "character": "Wario",
+      "skin": "Wario (11)"
+    },
+    {
+      "character": "Rob",
+      "skin": "Rob (7)"
+    }
+  ]
+}

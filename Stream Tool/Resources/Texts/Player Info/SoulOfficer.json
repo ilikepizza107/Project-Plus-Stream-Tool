@@ -1,0 +1,21 @@
+{
+  "name": "SoulOfficer",
+  "tag": "Love,",
+  "pronouns": "she/her",
+  "state": "Illinois",
+  "socials": {
+    "twitter": "SoulOfficer",
+    "twitch": "SoulOfficer",
+    "yt": ""
+  },
+  "characters": [
+    {
+      "character": "Captain Falcon",
+      "skin": "Captain Falcon (16)"
+    },
+    {
+      "character": "Snake",
+      "skin": "Snake (16)"
+    }
+  ]
+}

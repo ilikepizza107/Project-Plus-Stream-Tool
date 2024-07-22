@@ -1,0 +1,17 @@
+{
+  "name": "Stude",
+  "tag": "",
+  "pronouns": "he/they",
+  "state": "Texas",
+  "socials": {
+    "twitter": "",
+    "twitch": "studebacher",
+    "yt": ""
+  },
+  "characters": [
+    {
+      "character": "Captain Falcon",
+      "skin": "Captain Falcon (15)"
+    }
+  ]
+}

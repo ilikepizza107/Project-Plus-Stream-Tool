@@ -1,0 +1,17 @@
+{
+  "name": "Shadowhawke",
+  "tag": "KoF",
+  "pronouns": "he/him",
+  "state": "Connecticut",
+  "socials": {
+    "twitter": "Shadowhawke",
+    "twitch": "ShadowhawkeSSB",
+    "yt": ""
+  },
+  "characters": [
+    {
+      "character": "Lucas",
+      "skin": "Lucas (22)"
+    }
+  ]
+}

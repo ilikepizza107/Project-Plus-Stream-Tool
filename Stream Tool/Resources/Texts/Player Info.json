@@ -1,5 +1,458 @@
 [
   {
+    "name": "ACABrandon",
+    "tag": "+Side",
+    "pronouns": "any/all",
+    "state": "Missouri",
+    "socials": {
+      "twitter": "SomeGuitarGuy",
+      "twitch": "",
+      "yt": ""
+    },
+    "characters": [
+      {
+        "character": "Falco",
+        "skin": "Falco (4)"
+      }
+    ]
+  },
+  {
+    "name": "Atari",
+    "tag": "",
+    "pronouns": "it/its",
+    "state": "Texas",
+    "socials": {
+      "twitter": "AtariSSB",
+      "twitch": "Atari422",
+      "yt": ""
+    },
+    "characters": [
+      {
+        "character": "Roy",
+        "skin": "Roy (10)"
+      }
+    ]
+  },
+  {
+    "name": "Calcium",
+    "tag": "",
+    "pronouns": "he/they",
+    "state": "Michigan",
+    "socials": {
+      "twitter": "Calcium_PPhate",
+      "twitch": "calcium_phosphate",
+      "yt": ""
+    },
+    "characters": [
+      {
+        "character": "Ganondorf",
+        "skin": "Ganondorf (11)"
+      }
+    ]
+  },
+  {
+    "name": "Cantus",
+    "tag": "TN",
+    "pronouns": "",
+    "state": "Kentucky",
+    "socials": {
+      "twitter": "",
+      "twitch": "",
+      "yt": ""
+    },
+    "characters": [
+      {
+        "character": "Diddy Kong",
+        "skin": "Diddy Kong (16)"
+      }
+    ]
+  },
+  {
+    "name": "Chaloopy",
+    "tag": "",
+    "pronouns": "he/him",
+    "state": "Illinois",
+    "socials": {
+      "twitter": "",
+      "twitch": "",
+      "yt": ""
+    },
+    "characters": [
+      {
+        "character": "Ganondorf",
+        "skin": "Ganondorf (3)"
+      },
+      {
+        "character": "Captain Falcon",
+        "skin": "Captain Falcon (5)"
+      }
+    ]
+  },
+  {
+    "name": "Cyphr",
+    "tag": "LYL",
+    "pronouns": "he/him",
+    "state": "Louisiana",
+    "socials": {
+      "twitter": "",
+      "twitch": "SSBCyphr",
+      "yt": "CyphrSsbm"
+    },
+    "characters": [
+      {
+        "character": "Peach",
+        "skin": "Peach (10)"
+      }
+    ]
+  },
+  {
+    "name": "Dank",
+    "tag": "TCS",
+    "pronouns": "he/him",
+    "state": "Tennessee",
+    "socials": {
+      "twitter": "",
+      "twitch": "",
+      "yt": ""
+    },
+    "characters": [
+      {
+        "character": "Snake",
+        "skin": "Snake (12)"
+      }
+    ]
+  },
+  {
+    "name": "DIce",
+    "tag": "IWU",
+    "pronouns": "he/him",
+    "state": "Indiana",
+    "socials": {
+      "twitter": "DIce_PPlus",
+      "twitch": "",
+      "yt": ""
+    },
+    "characters": [
+      {
+        "character": "Meta Knight",
+        "skin": "Meta Knight (8)"
+      }
+    ]
+  },
+  {
+    "name": "Dingo",
+    "tag": "",
+    "pronouns": "he/him",
+    "state": "Georgia",
+    "socials": {
+      "twitter": "",
+      "twitch": "Dingo1011",
+      "yt": ""
+    },
+    "characters": [
+      {
+        "character": "Charizard",
+        "skin": "Charizard (5)"
+      }
+    ]
+  },
+  {
+    "name": "Dirtboy",
+    "tag": "GLS",
+    "pronouns": "he/him",
+    "state": "Michigan",
+    "socials": {
+      "twitter": "GLS_Dritboy",
+      "twitch": "Dirtboy345",
+      "yt": ""
+    },
+    "characters": [
+      {
+        "character": "Squirtle",
+        "skin": "Squirtle (11)"
+      }
+    ]
+  },
+  {
+    "name": "hibou",
+    "tag": "",
+    "pronouns": "she/her",
+    "state": "Louisiana",
+    "socials": {
+      "twitter": "",
+      "twitch": "ssbm_hibou",
+      "yt": ""
+    },
+    "characters": [
+      {
+        "character": "Lucario",
+        "skin": "Lucario (17)"
+      }
+    ]
+  },
+  {
+    "name": "ilikepizza107",
+    "tag": "+Side",
+    "pronouns": "he/him",
+    "state": "Illinois",
+    "socials": {
+      "twitter": "",
+      "twitch": "ilikepizza107",
+      "yt": "ilikepizza107"
+    },
+    "characters": [
+      {
+        "character": "Snake",
+        "skin": "Snake (10)"
+      }
+    ]
+  },
+  {
+    "name": "Jagz$",
+    "tag": "",
+    "pronouns": "he/him",
+    "state": "Florida",
+    "socials": {
+      "twitter": "JagzMoneyy",
+      "twitch": "JagzMoney",
+      "yt": ""
+    },
+    "characters": [
+      {
+        "character": "Marth",
+        "skin": "Marth (16)"
+      }
+    ]
+  },
+  {
+    "name": "MachineDynamics",
+    "tag": "",
+    "pronouns": "he/him",
+    "state": "Pennsylvania",
+    "socials": {
+      "twitter": "MachineDynamics",
+      "twitch": "",
+      "yt": ""
+    },
+    "characters": [
+      {
+        "character": "Wolf",
+        "skin": "Wolf (7)"
+      }
+    ]
+  },
+  {
+    "name": "Moist",
+    "tag": "TN",
+    "pronouns": "he/him",
+    "state": "Tennessee",
+    "socials": {
+      "twitter": "JaysonMoistRice",
+      "twitch": "SSBM_Moist",
+      "yt": ""
+    },
+    "characters": [
+      {
+        "character": "Ike",
+        "skin": "Ike (8)"
+      }
+    ]
+  },
+  {
+    "name": "ORLY",
+    "tag": "CSC",
+    "pronouns": "he/him",
+    "state": "Illinois",
+    "socials": {
+      "twitter": "kneelord",
+      "twitch": "",
+      "yt": ""
+    },
+    "characters": [
+      {
+        "character": "Captain Falcon",
+        "skin": "Captain Falcon (14)"
+      }
+    ]
+  },
+  {
+    "name": "Pringles",
+    "tag": "",
+    "pronouns": "he/him",
+    "state": "Indiana",
+    "socials": {
+      "twitter": "JuulsPringles",
+      "twitch": "onepringlechip",
+      "yt": ""
+    },
+    "characters": [
+      {
+        "character": "Fox",
+        "skin": "Fox (21)"
+      }
+    ]
+  },
+  {
+    "name": "shad",
+    "tag": "+Side",
+    "pronouns": "he/him",
+    "state": "Illinois",
+    "socials": {
+      "twitter": "princeshadrick",
+      "twitch": "shad_sucks",
+      "yt": ""
+    },
+    "characters": [
+      {
+        "character": "Ganondorf",
+        "skin": "Ganondorf (3)"
+      },
+      {
+        "character": "Captain Falcon",
+        "skin": "Captain Falcon (17)"
+      }
+    ]
+  },
+  {
+    "name": "Shadowhawke",
+    "tag": "KoF",
+    "pronouns": "he/him",
+    "state": "Connecticut",
+    "socials": {
+      "twitter": "Shadowhawke",
+      "twitch": "ShadowhawkeSSB",
+      "yt": ""
+    },
+    "characters": [
+      {
+        "character": "Lucas",
+        "skin": "Lucas (22)"
+      }
+    ]
+  },
+  {
+    "name": "Shenanigans",
+    "tag": "",
+    "pronouns": "he/him",
+    "state": "Tennessee",
+    "socials": {
+      "twitter": "",
+      "twitch": "PMShenanigans",
+      "yt": ""
+    },
+    "characters": [
+      {
+        "character": "Kirby",
+        "skin": "Kirby (14)"
+      }
+    ]
+  },
+  {
+    "name": "SipMastah",
+    "tag": "",
+    "pronouns": "he/him",
+    "state": "California",
+    "socials": {
+      "twitter": "SipMastah",
+      "twitch": "SipMastah",
+      "yt": ""
+    },
+    "characters": [
+      {
+        "character": "Meta Knight",
+        "skin": "Meta Knight (7)"
+      },
+      {
+        "character": "Diddy Kong",
+        "skin": "Diddy Kong (17)"
+      },
+      {
+        "character": "Lucario",
+        "skin": "Lucario (6)"
+      },
+      {
+        "character": "Sonic",
+        "skin": "Sonic (14)"
+      }
+    ]
+  },
+  {
+    "name": "SoulOfficer",
+    "tag": "Love,",
+    "pronouns": "she/her",
+    "state": "Illinois",
+    "socials": {
+      "twitter": "SoulOfficer",
+      "twitch": "SoulOfficer",
+      "yt": ""
+    },
+    "characters": [
+      {
+        "character": "Captain Falcon",
+        "skin": "Captain Falcon (16)"
+      },
+      {
+        "character": "Snake",
+        "skin": "Snake (16)"
+      }
+    ]
+  },
+  {
+    "name": "Star",
+    "tag": "",
+    "pronouns": "she/her",
+    "state": "Illinois",
+    "socials": {
+      "twitter": "pkzStar",
+      "twitch": "",
+      "yt": ""
+    },
+    "characters": [
+      {
+        "character": "Pit",
+        "skin": "Pit (17)"
+      },
+      {
+        "character": "Lucas",
+        "skin": "Lucas (20)"
+      }
+    ]
+  },
+  {
+    "name": "Stude",
+    "tag": "",
+    "pronouns": "he/they",
+    "state": "Texas",
+    "socials": {
+      "twitter": "",
+      "twitch": "studebacher",
+      "yt": ""
+    },
+    "characters": [
+      {
+        "character": "Captain Falcon",
+        "skin": "Captain Falcon (15)"
+      }
+    ]
+  },
+  {
+    "name": "Switch",
+    "tag": "",
+    "pronouns": "he/him",
+    "state": "New Jersey",
+    "socials": {
+      "twitter": "SwitchSSB",
+      "twitch": "SwitchSSB",
+      "yt": ""
+    },
+    "characters": [
+      {
+        "character": "Wolf",
+        "skin": "Wolf (3)"
+      }
+    ]
+  },
+  {
     "name": "Test",
     "tag": "One",
     "pronouns": "Pronouns",
@@ -17,6 +470,112 @@
       {
         "character": "Captain Falcon",
         "skin": "Captain Falcon (1)"
+      }
+    ]
+  },
+  {
+    "name": "Twisty",
+    "tag": "",
+    "pronouns": "he/him",
+    "state": "Massachusetts",
+    "socials": {
+      "twitter": "TwistyCap",
+      "twitch": "Twisty_Cap",
+      "yt": ""
+    },
+    "characters": [
+      {
+        "character": "Wario",
+        "skin": "Wario (1)"
+      }
+    ]
+  },
+  {
+    "name": "ultradill",
+    "tag": "",
+    "pronouns": "he/him",
+    "state": "Louisiana",
+    "socials": {
+      "twitter": "",
+      "twitch": "",
+      "yt": ""
+    },
+    "characters": [
+      {
+        "character": "Wolf",
+        "skin": "Wolf (15)"
+      }
+    ]
+  },
+  {
+    "name": "Xtreme",
+    "tag": "",
+    "pronouns": "he/him",
+    "state": "Tennessee",
+    "socials": {
+      "twitter": "Xtreminem",
+      "twitch": "",
+      "yt": ""
+    },
+    "characters": [
+      {
+        "character": "Wario",
+        "skin": "Wario (11)"
+      },
+      {
+        "character": "Rob",
+        "skin": "Rob (7)"
+      }
+    ]
+  },
+  {
+    "name": "Zarked",
+    "tag": "",
+    "pronouns": "he/him",
+    "state": "Michigan",
+    "socials": {
+      "twitter": "",
+      "twitch": "",
+      "yt": ""
+    },
+    "characters": [
+      {
+        "character": "Lucario",
+        "skin": "Lucario (9)"
+      }
+    ]
+  },
+  {
+    "name": "Zushi",
+    "tag": "",
+    "pronouns": "he/they",
+    "state": "Washington",
+    "socials": {
+      "twitter": "zushimoment",
+      "twitch": "",
+      "yt": ""
+    },
+    "characters": [
+      {
+        "character": "Link",
+        "skin": "Link (2)"
+      }
+    ]
+  },
+  {
+    "name": "~CP9~",
+    "tag": "",
+    "pronouns": "he/him",
+    "state": "Texas",
+    "socials": {
+      "twitter": "",
+      "twitch": "CP9Neji",
+      "yt": ""
+    },
+    "characters": [
+      {
+        "character": "Olimar",
+        "skin": "Olimar (16)"
       }
     ]
   }

@@ -1,0 +1,21 @@
+{
+  "name": "shad",
+  "tag": "+Side",
+  "pronouns": "he/him",
+  "state": "Illinois",
+  "socials": {
+    "twitter": "princeshadrick",
+    "twitch": "shad_sucks",
+    "yt": ""
+  },
+  "characters": [
+    {
+      "character": "Ganondorf",
+      "skin": "Ganondorf (3)"
+    },
+    {
+      "character": "Captain Falcon",
+      "skin": "Captain Falcon (17)"
+    }
+  ]
+}

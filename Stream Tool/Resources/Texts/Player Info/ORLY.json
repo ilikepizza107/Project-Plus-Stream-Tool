@@ -1,0 +1,17 @@
+{
+  "name": "ORLY",
+  "tag": "CSC",
+  "pronouns": "he/him",
+  "state": "Illinois",
+  "socials": {
+    "twitter": "kneelord",
+    "twitch": "",
+    "yt": ""
+  },
+  "characters": [
+    {
+      "character": "Captain Falcon",
+      "skin": "Captain Falcon (14)"
+    }
+  ]
+}
