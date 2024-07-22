@@ -1,0 +1,17 @@
+{
+  "name": "Lunchables",
+  "tag": "",
+  "pronouns": "he/him",
+  "state": "Wisconsin",
+  "socials": {
+    "twitter": "LunchablesUP",
+    "twitch": "lunchablesup",
+    "yt": ""
+  },
+  "characters": [
+    {
+      "character": "Meta Knight",
+      "skin": "Meta Knight (1)"
+    }
+  ]
+}

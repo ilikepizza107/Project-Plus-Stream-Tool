@@ -1,5 +1,49 @@
 [
   {
+    "name": "ACABrandon",
+    "tag": "",
+    "pronouns": "he/him",
+    "state": "Missouri",
+    "socials": {
+      "twitter": "SomeGuitarGuy",
+      "twitch": "",
+      "yt": ""
+    }
+  },
+  {
+    "name": "ilikepizza107",
+    "tag": "+Side",
+    "pronouns": "he/him",
+    "state": "Illinois",
+    "socials": {
+      "twitter": "",
+      "twitch": "ilikepizza107",
+      "yt": "ilikepizza107"
+    }
+  },
+  {
+    "name": "shad",
+    "tag": "+Side",
+    "pronouns": "he/him",
+    "state": "Illinois",
+    "socials": {
+      "twitter": "princeshadrick",
+      "twitch": "shad_sucks",
+      "yt": ""
+    }
+  },
+  {
+    "name": "Stude",
+    "tag": "",
+    "pronouns": "he/they",
+    "state": "Texas",
+    "socials": {
+      "twitter": "",
+      "twitch": "studebacher",
+      "yt": ""
+    }
+  },
+  {
     "name": "Test",
     "tag": "Tag",
     "pronouns": "Pronouns",
