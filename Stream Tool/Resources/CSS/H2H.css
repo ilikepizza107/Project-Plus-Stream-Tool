@@ -1,0 +1,600 @@
+@font-face {
+    font-family: "Deansgate";
+    src: url('../Fonts/DeansgateCondensed-Bold.ttf');
+}
+
+@font-face {
+    font-family: "Project+";
+    src: url('../Fonts/genuine-865.ttf');
+}
+
+:root {
+    --colorL: #14bb89;
+    --colorR: #14bb89;
+}
+
+body {
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+    background: transparent;
+    padding: 0px;
+    margin: 0px;
+    text-transform: uppercase;
+}
+
+#vsOverlay {
+    width: 1920px;
+    height: 1080px;
+    z-index: -1;
+}
+
+.absol {
+    position: absolute;
+}
+
+.mirror {
+    position: absolute;
+    transform: scaleX(-1);
+}
+
+.singlesClip {
+    width: 1920px;
+    height: 1080px;
+    clip: rect(0px, 960px, 1080px, 0px);
+}
+.dubsClip {
+    width: 1920px;
+    height: 1080px;
+    clip: rect(100px, 960px, 700px, 0px);
+}
+
+.mirrorP2 {
+    position: absolute;
+    transform: scaleX(-1);
+    top: 0px;
+    right: 0px;
+}
+
+
+.playerInfoDiv {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 15px;
+    transform: rotate(-3.3deg);
+    width: 940px;
+    overflow: hidden;
+    font-size: 28px;
+}
+.playerInfoDivL {
+    bottom: 223px;
+    left: 12px;
+    transform-origin: bottom left;
+}
+.playerInfoDivL1 {
+    top: 130px;
+    left: 42px;
+    align-items: flex-start;
+}
+.playerInfo1L {
+    transform: rotate(-3.3deg);
+    transform-origin: top left;
+}
+.playerInfoDivR {
+    right: 12px;
+    bottom: 278px;
+    transform-origin: top right;
+    flex-direction: row-reverse;
+}
+.playerInfoDivR1 {
+    top: 130px;
+    right: 42px;
+    align-items: flex-end;
+}
+.playerInfo1R {
+    transform: rotate(3.3deg);
+    transform-origin: top right;
+}
+
+.playerInfoDiv2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 900px;
+    font-size: 22px;
+}
+#playerInfoDivL2 {
+    bottom: 130px;
+    left: 42px;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+}
+.playerInfo2L {
+    transform: rotate(3.3deg);
+    transform-origin: bottom left;
+}
+#playerInfoDivR2 {
+    bottom: 130px;
+    right: 42px;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+}
+.playerInfo2R {
+    transform: rotate(-3.3deg);
+    transform-origin: bottom right;
+}
+
+
+
+.playerInfo {
+    display: flex;
+    gap: 7px;
+    font-family: "Deansgate";
+    color: white;
+    white-space: nowrap;
+    padding: 5px 10px;
+    border-radius: 5px;
+    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.5));
+}
+
+.playerInfoText {
+    filter: drop-shadow(0px 0px 7px rgba(0, 0, 0, 0.5));
+}
+.playerInfoIcon {
+    margin-right: -2px;
+    fill: white;
+    display: inline-block;
+    filter: drop-shadow(0px 0px 7px rgba(0, 0, 0, 0.5));
+}
+.playerInfoIconTwitter {
+    height: 24px;
+    width: 24px;
+    transform: translate(0px, 2px);
+}
+.playerInfoIconTwitch {
+    height: 23px;
+    width: 23px;
+    transform: translate(0px, 2px);
+}
+.playerInfoIconYt {
+    height: 24px;
+    width: 24px;
+    transform: translate(0px, 2px);
+}
+
+
+.character {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    object-fit: scale-down;
+    opacity: 0;
+}
+
+.chara {
+    opacity: 0;
+}
+
+#topRow {
+    position: absolute;
+    width: 1920px;
+}
+#botRow {
+    position: absolute;
+    width: 1920px;
+    top: 410px;
+}
+
+
+.textBGs {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    bottom: 55px;
+    filter: drop-shadow(0px 0px 5px black);
+}
+.textBGsDubs {
+    height: 100%;
+    bottom: 0;
+}
+.textBg {
+    height: 70px;
+    width: 50%;
+}
+.textBg::after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #ffffff40 0%, #FFFFFF00);
+    content: "";
+}
+.textBgDubs {
+    height: 109px;
+    transform: skewY(0);
+}
+#textBgL {
+    background-color: var(--colorL);
+}
+#textBgR {
+    background-color: var(--colorR);
+}
+
+
+.wrappers {
+    position: absolute;
+    font-family: "Deansgate";
+    text-align: center;
+    white-space: nowrap;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.7);
+    opacity: 0;
+}
+
+.wrappersSingles {
+    width: 940px;
+    height: 120px;
+    bottom: 90px;
+    line-height: 90px;
+}
+.wrappersDoubles {
+    width: 300px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.5));
+    border-radius: 5px;
+}
+
+.p1WSingles {
+    left: 10px;
+}
+.p2WSingles {
+    right: 10px;
+}
+
+.p1WDub {
+    top: 50px;
+    left: 40px;
+    transform: rotate(-3.3deg);
+    background-color: var(--colorL);
+}
+.p2WDub {
+    top: 50px;
+    right: 40px;
+    transform: rotate(3.3deg);
+    background-color: var(--colorR);
+}
+#p3Wrapper {
+    bottom: 50px;
+    left: 40px;
+    transform: rotate(3.3deg);
+    background-color: var(--colorL);
+}
+#p4Wrapper {
+    bottom: 50px;
+    right: 40px;
+    transform: rotate(-3.3deg);
+    background-color: var(--colorR);
+}
+
+.name {
+    color: white;
+}
+
+.tag {
+    color: lightgray;
+}
+
+.state {
+    max-width: 95px;
+    max-height: 95px;
+    padding-right: 5px;
+    object-fit: scale-down;
+}
+
+
+.teamName {
+    position: absolute;
+    width: 690px;
+    height: 90px;
+    top: 495px;
+    font-family: "Deansgate";
+    white-space: nowrap;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#teamNameL {
+    left: 25px;
+}
+#teamNameR {
+    right: 25px;
+}
+
+
+#middleDivs {
+    --singlesTopMargin: 10px;
+    --doublesTopMargin: 454px;
+    --topMargin: var(--singlesTopMargin);
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(var(--topMargin));
+    filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.5));
+}
+
+
+#roundInfo {
+    text-align: center;
+    font-family: "Deansgate";
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    transition: width .5s, height .3s, border-width .3s;
+}
+.roundInfoSingles {
+    border: solid;
+    border-width: 10px 63px;
+    border-image: url('../Overlay/VS\ Screen/Round Border.png') 10 63 fill;
+}
+
+#tournament {
+    color: rgb(65, 65, 65);
+    margin: 0 -10px;
+}
+#round {
+    color: black;
+    margin: 0 5px;
+    margin-top: -5px;
+}
+
+
+#casterInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 76px;
+    transition: width .5s, height .3s, border-width .3s;
+}
+.casterInfoSingles {
+    border: solid;
+    border-width: 9px 54px;
+    border-image: url('../Overlay/VS\ Screen/Caster Border.png') 9 54 fill;
+}
+.casterInfoDoubles {
+    margin-top: -7px;
+}
+
+#casters {
+    position: relative;
+    text-align: center;
+    font-family: "Deansgate";
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.casterDiv ~ .casterDiv::before {
+    position: absolute;
+    transform: translate(-11px, 6px);
+    width: 2px;
+    height: 80%;
+    background-color: black;
+    opacity: .15;
+    content: "";
+}
+
+.casterDiv {
+    display: flex;
+    flex-direction: column;
+    width: 185px;
+    margin: 0 -5px;
+    flex-shrink: 0;
+}
+
+.casterNameBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    min-height: 36px;
+}
+.casterName {
+    color: black;
+}
+.casterTag {
+    color: gray;
+    transform: translateY(4px);
+}
+
+.casterSep {
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+
+.socialBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    min-height: 28px;
+}
+.socialText {
+    color: rgb(65, 65, 65);
+}
+
+.socialIcon {
+    display: inline-block;
+    object-fit: scale-down;
+    fill: rgb(65, 65, 65);
+    flex-shrink: 0;
+}
+.micIcon {
+    height: 20px;
+    width: 20px;
+}
+.twitterIcon {
+    height: 18px;
+    width: 18px;
+}
+.twitchIcon {
+    height: 17px;
+    width: 17px;
+    transform: translate(-2px, -1px);
+}
+.ytIcon {
+    height: 19px;
+    width: 19px;
+    transform: translate(-1px, 0px);
+}
+.bskyIcon {
+    height: 19px;
+    width: 19px;
+    transform: translate(-2px, 0px);
+}
+.mastoIcon {
+    height: 19px;
+    width: 19px;
+    transform: translate(-2px, 0px);
+}
+.cohostIcon {
+    height: 20px;
+    width: 20px;
+    transform: translate(-1px, 0px);
+}
+.personIcon {
+    height: 20px;
+    width: 20px;
+}
+
+
+#scores {
+    position: relative;
+    margin-top: 8px;
+    --greyScore: #414141;
+}
+
+.scoreTick {
+    position: absolute;
+    fill: #414141;
+    top: 2px;
+}
+
+#scoreL-1 {
+    left: 60px;
+}
+#scoreL-2 {
+    left: 31px;
+}
+#scoreL-3 {
+    left: 4px;
+}
+
+#scoreR-1 {
+    right: 60px;
+    transform: scaleX(-1);
+}
+#scoreR-2 {
+    right: 31px;
+    transform: scaleX(-1);
+}
+#scoreR-3 {
+    right: 4px;
+    transform: scaleX(-1);
+}
+
+#scoreBorder {
+    position: relative;
+}
+
+#scoreNumerical {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: -28px;
+}
+.scoreNum {
+    height: 66px;
+    width: 64px;
+    font-family: "Deansgate";
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(24px);
+}
+#scoreNumL {
+    -webkit-text-stroke: 1px var(--colorL);
+    text-shadow: 0px 0px 3px var(--colorL);
+}
+#scoreNumR {
+    -webkit-text-stroke: 1px var(--colorR);
+    text-shadow: 0px 0px 3px var(--colorR);
+}
+
+#connErrorDiv {
+    display: none;
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(to top, black, rgba(0, 0, 0, 0));
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Deansgate";
+    font-size: 28px;
+    color: lightcoral;
+    text-shadow: 0px 0px 5px black;
+}
+
+
+.dubEL {
+    display: none;
+}
+
+/* Animations! */
+
+@keyframes fadeOut {
+    from {opacity: 1}
+    to {opacity: 0}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+@keyframes charaMoveOut {
+    from {transform: translateX(0)}
+    to {transform: translateX(-30px)}
+}
+
+@keyframes charaMoveIn {
+    from {transform: translateX(-30px)}
+    to {transform: translateX(0)}
+}
+
+@keyframes trailMoveOut { /* cheap trick */
+    from {transform: translateX(-30px)}
+    to {transform: translateX(-30px)}
+}
+
+@keyframes trailMoveIn {
+    from {transform: translateX(0px)}
+    to {transform: translateX(-30px)}
+}
