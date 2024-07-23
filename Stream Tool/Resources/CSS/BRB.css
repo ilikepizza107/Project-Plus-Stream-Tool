@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "Deansgate";
+    src: url('../Fonts/DeansgateCondensed-Bold.ttf');
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url('../Fonts/Roboto-Bold.ttf');
+}
+
+@font-face {
+    font-family: "Project+";
+    src: url('../Fonts/genuine-865.ttf');
+}
+
+body {
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+    text-transform: uppercase;
+    color: black;
+    font-family: "Deansgate";
+}
+
+#background {
+    width: 1920px;
+    height: 1080px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#sponsors {
+    width: 1920px;
+    height: 1080px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#sponsor-logo, #sponsor-logo-next {
+    max-width: 81%;
+    max-height: 81%;
+    top: 24px;
+    right: 25px;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+#sponsor-logo.active, #sponsor-logo-next.active {
+    opacity: 1;
+}
+
+.absol {
+    position: absolute;
+}
+
+#connErrorDiv {
+    display: none;
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(to top, black, rgba(0, 0, 0, 0));
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Deansgate";
+    font-size: 28px;
+    color: lightcoral;
+    text-shadow: 0px 0px 5px black;
+}
