@@ -1,0 +1,19 @@
+This is a description about what each scene (.html file) does. All of these scenes need "Shutdown source when not visible" and "Refresh browser when scene becomes active" checked in the OBS properties.
+
+Keep in mind that every single scene is controlled simply by the .exe, and that you can use the Remote GUI to update the stream from afar. Read the Remote GUI section here for more info on setup: https://plusside.net/articles/Project+-Stream-Tool.html
+
+Bracket.html: A top 8 bracket scene
+
+BRB.hmtl: A "Be Right Back" scene that will rotate through other banners
+
+Comms.html: Scene for a commentary camera
+
+Doubles.html: Scoreboard scene for doubles
+
+H2H.html: A scene for both player cams to be at the forefront, with the game and other info in the center. Please use this for singles only, switching to doubles breaks the scene.
+
+Singles.html: Scoreboard scene for singles
+
+TY.html: A "Thank You For Watching" scene that has an empty space in place of the banner slideshow
+
+VS Screen.html: A scene that is very similar to the VS Screen, but with player socials + characters at the forefront instead of player cams + gameplay
