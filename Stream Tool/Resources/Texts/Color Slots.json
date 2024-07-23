@@ -1,19 +1,19 @@
 [
     {
         "name": "Red",
-        "hex": "#FE2727"
+        "hex": "#c2504c"
     },
     {
         "name": "Blue",
-        "hex": "#4756DD"
+        "hex": "#494bb1"
     },
     {
         "name": "Yellow",
-        "hex": "#FDDD26"
+        "hex": "#c2af43"
     },
     {
         "name": "Green",
-        "hex": "#17D62B"
+        "hex": "#4aac53"
     },
     {
         "name": "Pink",

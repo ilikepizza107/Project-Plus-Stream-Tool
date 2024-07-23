@@ -61,7 +61,7 @@ body {
 
 
 #bgVids {
-    filter: grayscale(.8);
+    filter: grayscale(.5);
 }
 
 #vidBGP1 {
@@ -78,7 +78,7 @@ body {
 }
 
 
-#colorGrads {
+/* #colorGrads {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -108,7 +108,7 @@ body {
     height: 100%;
     background: linear-gradient(225deg, #ffffff81 0%, #FFFFFF00 75%, #FFFFFF00);
     content: '';
-}
+} */
 
 
 .playerInfoDiv {
