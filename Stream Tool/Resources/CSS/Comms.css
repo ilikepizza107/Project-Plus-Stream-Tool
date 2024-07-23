@@ -52,7 +52,6 @@ body {
     width: 500px;
     position: absolute;
     text-align: center;
-    text-shadow: 2px 2px 5px black;
     font-family: "Deansgate";
     white-space: nowrap;
     display: flex;
@@ -82,10 +81,10 @@ body {
     transform: translateX(45px) translateY(-4px);
 }
 .casterName {
-    color: black;
+    color: white;
 }
 .casterTag {
-    color: black;
+    color: white;
     transform: translateY(4px);
 }
 
@@ -100,7 +99,6 @@ body {
 
 .socialBox {
     display: flex;
-    text-shadow: 2px 2px 5px black;
     justify-content: center;
     align-items: center;
     gap: 2px;
@@ -109,18 +107,19 @@ body {
     transform: translateX(4px) translateY(-24px);
 }
 .socialText {
-    color: rgb(0, 0, 0);
+    color: red;
 }
 
 .socialIcon {
     display: inline-block;
     object-fit: scale-down;
-    fill: rgb(0, 0, 0);
+    fill: red;
     flex-shrink: 0;
 }
 .micIcon {
     height: 45px;
     width: 45px;
+    fill: white;
 }
 .twitterIcon {
     height: 35px;

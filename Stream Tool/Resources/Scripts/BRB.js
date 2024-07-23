@@ -16,6 +16,7 @@ initOnBrowserActive(() => hideElements(), () => showElements());
 document.addEventListener('DOMContentLoaded', () => {
     const logos = [
         './Resources/Overlay/BRB/Banners/Undertow.png',
+        './Resources/Overlay/BRB/Banners/C3.jpg',
         './Resources/Overlay/BRB/Banners/HeartbeatAD.png',
         './Resources/Overlay/BRB/Banners/TitansTourneys.jpg'
     ];
