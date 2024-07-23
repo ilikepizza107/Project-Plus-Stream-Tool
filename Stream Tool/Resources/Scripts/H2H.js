@@ -1,12 +1,12 @@
 import { current } from "./Utils/Globals.mjs";
 import { initOnBrowserActive, isBrowserActive } from "./Utils/On Transition Event.mjs";
 import { initWebsocket } from "./Utils/WebSocket.mjs";
-import { bestOf } from "./VS Screen/BestOf.mjs";
-import { casters } from "./VS Screen/Caster/Casters.mjs";
-import { gamemode } from "./VS Screen/Gamemode Change.mjs";
-import { players } from "./VS Screen/Player/Players.mjs";
-import { roundInfo } from "./VS Screen/Round Info/Round Info.mjs";
-import { teams } from "./VS Screen/Team/Teams.mjs";
+import { bestOf } from "./H2H/BestOf.mjs";
+import { casters } from "./H2H/Caster/Casters.mjs";
+import { gamemode } from "./H2H/Gamemode Change.mjs";
+import { players } from "./H2H/Player/Players.mjs";
+import { roundInfo } from "./H2H/Round Info/Round Info.mjs";
+import { teams } from "./H2H/Team/Teams.mjs";
 
 // this is a weird way to have file svg's that can be recolored by css
 customElements.define("load-svg", class extends HTMLElement {

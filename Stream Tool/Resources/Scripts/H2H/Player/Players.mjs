@@ -1,4 +1,4 @@
-import { gamemode } from "../../VS Screen/Gamemode Change.mjs";
+import { gamemode } from "../Gamemode Change.mjs";
 import { Player } from "./Player.mjs";
 
 const topRow = document.getElementById("topRow");
