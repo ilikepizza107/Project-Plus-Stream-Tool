@@ -123,6 +123,27 @@
     ]
   },
   {
+    "name": "Den",
+    "tag": "",
+    "pronouns": "he/him",
+    "state": "Tennessee",
+    "socials": {
+      "twitter": "",
+      "twitch": "",
+      "yt": ""
+    },
+    "characters": [
+      {
+        "character": "Wolf",
+        "skin": "Wolf (13)"
+      },
+      {
+        "character": "Fox",
+        "skin": "Fox (20)"
+      }
+    ]
+  },
+  {
     "name": "DIce",
     "tag": "IWU",
     "pronouns": "he/him",
@@ -176,7 +197,7 @@
   {
     "name": "hibou",
     "tag": "",
-    "pronouns": "she/her",
+    "pronouns": "he/him",
     "state": "Louisiana",
     "socials": {
       "twitter": "",
@@ -272,6 +293,40 @@
       {
         "character": "Ike",
         "skin": "Ike (8)"
+      }
+    ]
+  },
+  {
+    "name": "natebug01",
+    "tag": "",
+    "pronouns": "he/it",
+    "state": "Georgia",
+    "socials": {
+      "twitter": "",
+      "twitch": "",
+      "yt": ""
+    },
+    "characters": [
+      {
+        "character": "Kirby",
+        "skin": "Kirby (21)"
+      }
+    ]
+  },
+  {
+    "name": "Ntire",
+    "tag": "",
+    "pronouns": "he/him",
+    "state": "Texas",
+    "socials": {
+      "twitter": "",
+      "twitch": "",
+      "yt": ""
+    },
+    "characters": [
+      {
+        "character": "Ness",
+        "skin": "Ness (17)"
       }
     ]
   },
@@ -449,6 +504,23 @@
       {
         "character": "Captain Falcon",
         "skin": "Captain Falcon (15)"
+      }
+    ]
+  },
+  {
+    "name": "Suezo",
+    "tag": "",
+    "pronouns": "he/him",
+    "state": "Tennessee",
+    "socials": {
+      "twitter": "",
+      "twitch": "",
+      "yt": ""
+    },
+    "characters": [
+      {
+        "character": "Fox",
+        "skin": "Fox (10)"
       }
     ]
   },

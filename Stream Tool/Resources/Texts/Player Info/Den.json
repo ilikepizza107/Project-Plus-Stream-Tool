@@ -1,0 +1,21 @@
+{
+  "name": "Den",
+  "tag": "",
+  "pronouns": "he/him",
+  "state": "Tennessee",
+  "socials": {
+    "twitter": "",
+    "twitch": "",
+    "yt": ""
+  },
+  "characters": [
+    {
+      "character": "Wolf",
+      "skin": "Wolf (13)"
+    },
+    {
+      "character": "Fox",
+      "skin": "Fox (20)"
+    }
+  ]
+}
