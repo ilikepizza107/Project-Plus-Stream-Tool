@@ -48,14 +48,14 @@
     ],
     "scoreboard": {
         "neutral": {
-            "x": 35,
+            "x": 25,
             "y": 20,
             "scale": 1.5
         }
     },
     "vsScreen": {
         "neutral": {
-            "x": -485,
+            "x": -555,
             "y": 190,
             "scale": 2.5
         }
