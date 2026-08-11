@@ -53,7 +53,7 @@ jobs:
         run: npm ci
 
       - name: Build Electron application
-        run: npm run dist -- ${{ matrix.electron_target }} --publish never
+        run: npx electron-builder ${{ matrix.electron_target }} --publish=never
 
       - name: Upload ${{ matrix.platform }} build
         uses: actions/upload-artifact@v4
