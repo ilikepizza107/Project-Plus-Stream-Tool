@@ -1,5 +1,7 @@
 name: Build GUI
 
+run: npm run dist -- ${{ matrix.electron_target }} --publish never
+
 on:
   push:
     paths:
@@ -21,12 +23,12 @@ jobs:
         include:
           - platform: Windows
             os: windows-2022
-            electron_target: --win portable
+            electron_target: --win
             artifact_glob: "Interface Source Code/dist/*.exe"
 
           - platform: macOS
-            os: macos-13
-            electron_target: --mac dmg
+            os: macos-latest
+            electron_target: --mac
             artifact_glob: "Interface Source Code/dist/*.dmg"
 
           - platform: Linux
