@@ -27,7 +27,7 @@ jobs:
           - platform: macOS
             os: macos-latest
             electron_target: --mac --universal
-            artifact_glob: "Interface Source Code/dist/*.dmg"
+            artifact_glob: "Interface Source Code/dist/*.app"
 
           - platform: Linux
             os: ubuntu-24.04
