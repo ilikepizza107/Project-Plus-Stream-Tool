@@ -1,26 +1,24 @@
 const path = require('path')
 const WebSocket = require('ws')
 
+const { app } = require('electron')
 // define the main folder
 let resourcesPath;
-if (process.platform == "win32") { // if on Windows
-    resourcesPath = path.resolve(process.env.PORTABLE_EXECUTABLE_DIR, 'Resources');
-} else if (process.platform == "darwin") { // if on MacOS
-    // The ../../../.. here is specific to how/where the executable ends up after
-    // it gets packaged into the .app
-    resourcesPath = path.resolve(process.execPath, "../../../..", 'Resources');
-} else { // if on Linux
-    resourcesPath = path.resolve('.', 'Resources');
+if (app.isPackaged) {
+    // Packaged application
+    resourcesPath = path.join(process.resourcesPath, 'Resources');
+} else {
+    // Running with npm/yarn start
+    resourcesPath = path.resolve(__dirname, '..', 'Stream Tool', 'Resources');
 }
-// if using npm/yarn start
-/* resourcesPath = path.resolve('..', 'Stream Tool', 'Resources') */
-
 loadExecFile();
 async function loadExecFile() {
     try {
-        const executable = require(resourcesPath + "/Scripts/Executable.js");
-        // we pass the WebSocket class because i coudnt figure out a better way to load it there
-        // im blaming electron on this one
+        const executable = require(
+            path.join(resourcesPath, 'Scripts', 'Executable.js')
+        );
+        // we pass the WebSocket class because i couldn't figure out a better way to load it there
+        // i'm blaming electron on this one
         executable(resourcesPath, __dirname, WebSocket);
     } catch (error) {
         console.log(error);
