@@ -16,12 +16,6 @@
   },
   "build": {
     "appId": "project.st.gui",
-    "extraResources": [
-      {
-        "from": "../Stream Tool/Resources",
-        "to": "Resources"
-      }
-    ],
     "linux": {
       "target": "AppImage"
     },
