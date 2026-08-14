@@ -8,7 +8,7 @@ if (process.platform == "win32") { // if on Windows
 } else if (process.platform == "darwin") { // if on MacOS
     // The ../../../.. here is specific to how/where the executable ends up after
     // it gets packaged into the .app
-    resourcesPath = path.resolve(process.execPath, "../../../..", 'Resources');
+    resourcesPath = path.resolve(path.dirname(process.execPath), "../../../Resources");
 } else { // if on Linux
     resourcesPath = path.resolve('.', 'Resources');
 }
